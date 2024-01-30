@@ -94,6 +94,7 @@ header {
   margin-bottom: 30px;
   background-color: skyblue;
   display: flex;
+  flex-direction: column;
 }
 
 h1 {
