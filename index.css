@@ -8,18 +8,21 @@ body {
 .content-wrapper {
   margin-right: auto;
   margin-left: auto;
-  max-width: 960px;
+  max-width: 1100px;
 }
-
 
 
 
 header {
+  clear: both;
   text-align: center;
+  display: block;
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
   /*background-color: lightgray;*/
   /*border: 5px solid black;*/
 }
-
 
 h1 {
   /*Heading for the entire article*/
@@ -46,24 +49,28 @@ h1 {
   display: inline;
 }
 
+
 main {
 
 }
 
 section {
   clear: both;
-  margin-top: 60px;
 }
 
 h3 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 2rem;
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 0px;
 }
 
 figure {
-  float: right;
-  margin: 0px;
-  margin-bottom: 20px;
+  float: left;
+  display: inline-block;
+  margin-left: 0;
 }
 
 img {
@@ -74,9 +81,10 @@ figcaption {
   font-style: italic;
 }
 
-.intro figure {
+.text {
+  max-width: 400px;
   float: left;
-  margin-right: 40px;
+  display: inline-block;
 }
 
 .intro p{
@@ -85,38 +93,16 @@ figcaption {
   font-size: 1.3em;
 }
 
-.tuscany figure {
-  float: right;
-  margin-left: 40px;
-}
-
-.tuscany2 figure {
-  float: left;
+.tuscany .text {
   margin-right: 40px;
 }
 
-.venice figure {
-  float: right;
-  margin-left: 40px;
-}
 
-.milan figure {
-  float: left;
+.milan .text {
   margin-right: 40px;
 }
 
-.cinqueterre figure {
-  float: right;
-  margin-left: 40px;
-}
-
-.eatdrink figure {
-  float: left;
-  margin-right: 40px;
-}
-
-.tips figure {
-  float: left;
+.eatdrink .text {
   margin-right: 40px;
 }
 
@@ -127,6 +113,7 @@ ul {
 li {
   margin-bottom: 20px;
 }
+
 
 footer {
   background-color: lightgray;
